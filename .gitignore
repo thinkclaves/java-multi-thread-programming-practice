@@ -1,6 +1,6 @@
 .metadata
 .classpath
-.project
+!.project
 .settings/
 target/
 logs/

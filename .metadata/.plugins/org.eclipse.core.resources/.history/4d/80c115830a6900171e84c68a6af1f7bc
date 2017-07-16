@@ -1,0 +1,8 @@
+package P005;
+
+public class Run {
+	MyThread mythread = new MyThread();
+	mythread.start();
+	System.out.println("Program exits");
+	
+}

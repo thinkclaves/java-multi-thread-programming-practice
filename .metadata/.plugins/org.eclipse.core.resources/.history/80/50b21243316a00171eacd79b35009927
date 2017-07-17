@@ -1,0 +1,8 @@
+package P012;
+
+public class LoginServlet {
+	private static String usernameRef;
+	private static String passwordRef;
+	
+
+}

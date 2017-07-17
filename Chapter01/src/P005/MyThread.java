@@ -1,7 +1,7 @@
 package P005;
 
 public class MyThread extends Thread{
-	@Override
+	//@Override
 	public void run()
 	{
 		super.run();

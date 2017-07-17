@@ -1,0 +1,9 @@
+package P009;
+
+public class MyThread extends Thread{
+	private int count = 5;
+	public MyThread(String name)
+	{
+		
+	}
+}

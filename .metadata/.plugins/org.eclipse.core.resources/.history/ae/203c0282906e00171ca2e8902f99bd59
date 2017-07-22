@@ -1,0 +1,9 @@
+package P021;
+
+public class MyThread2 extends Thread{
+	public void run()
+	{
+		System.out.println("run threadName=" + this.currentThread().getName()+ " begin="+System.currentTimeMillis());
+	}
+
+}

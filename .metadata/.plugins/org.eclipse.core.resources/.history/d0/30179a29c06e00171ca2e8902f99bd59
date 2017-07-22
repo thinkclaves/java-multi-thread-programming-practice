@@ -1,0 +1,19 @@
+package P032;
+
+public class App {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try
+		{
+		
+			MyThread thread = new MyThread();
+		}
+		catch(InterruptedException e)
+		{
+			e.printStackTrace();
+		}
+
+	}
+
+}

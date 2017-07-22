@@ -1,0 +1,16 @@
+package P027;
+
+public class MyThread extends Thread{
+	public void run()
+	{
+		super.run();
+		for(int i=0;i<75000;i++)
+		{
+			if(this.interrupted())
+			{
+				
+			}
+		}
+	}
+
+}

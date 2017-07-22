@@ -1,0 +1,9 @@
+package P027;
+
+public class MyThread extends Thread{
+	public void run()
+	{
+		super.run();
+	}
+
+}

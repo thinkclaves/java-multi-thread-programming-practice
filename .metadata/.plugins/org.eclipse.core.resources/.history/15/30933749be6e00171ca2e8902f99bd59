@@ -1,0 +1,16 @@
+package P032;
+
+public class MyThread extends Thread{
+	private int i =0;
+	public void run()
+	{
+		try{
+			while(true)
+			{
+				
+				
+			}
+		}
+	}
+
+}

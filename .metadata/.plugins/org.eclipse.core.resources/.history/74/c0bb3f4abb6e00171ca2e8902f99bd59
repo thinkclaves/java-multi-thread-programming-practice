@@ -1,0 +1,9 @@
+package P030;
+
+public class MyThread extends Thread{
+	public void run()
+	{
+		
+	}
+
+}

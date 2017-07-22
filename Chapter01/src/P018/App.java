@@ -1,0 +1,13 @@
+package P018;
+
+public class App {
+	public static void main(String[] args)
+	{
+		
+		MyThread mythread = new MyThread();
+		System.out.println("begin == " + mythread.isAlive());
+		mythread.start();
+		System.out.println("end == " + mythread.isAlive());
+		
+	}
+}

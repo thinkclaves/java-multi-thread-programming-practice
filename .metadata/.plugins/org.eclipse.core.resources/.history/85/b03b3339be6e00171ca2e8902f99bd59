@@ -1,0 +1,6 @@
+package P032;
+
+public class MyThread extends Thread{
+	private int i =0;
+
+}

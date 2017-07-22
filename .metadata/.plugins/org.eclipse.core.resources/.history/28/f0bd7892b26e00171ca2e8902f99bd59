@@ -1,0 +1,23 @@
+package P025;
+
+public class App {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try
+		{
+			MyThread thread = new MyThread();
+			thread.start();
+			Thread.sleep(1000);
+			thread.interrupt();
+			System.out.println("Is stop 1?="+thread.interrupt());
+		}
+		catch(InterruptedException e)
+		{
+			e.printStackTrace();
+			
+		}
+
+	}
+
+}

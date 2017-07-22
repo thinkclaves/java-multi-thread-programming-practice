@@ -1,0 +1,8 @@
+package P030;
+
+public class App {
+	public static void main(String[] args)
+	{
+		MyThread thread = new MyThread();
+	}
+}

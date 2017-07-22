@@ -1,0 +1,18 @@
+package P030;
+
+public class MyThread extends Thread{
+	public void run()
+	{
+		try
+		{
+			super.run();
+			System.out.println("run begin");
+		}
+		catch(InterruptedException e)
+		{
+			System.out.println("be stopped and enter catch area when thread was sleeping.");
+			e.printStackTrace();
+		}
+	}
+
+}

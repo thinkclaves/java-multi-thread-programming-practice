@@ -1,0 +1,5 @@
+package P030;
+
+public class MyThread extends Thread{
+
+}

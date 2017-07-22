@@ -1,0 +1,15 @@
+package P027;
+
+public class App {
+
+	public static void main(String[] args)
+	{
+		try{
+			
+		}
+		catch(InterruptedException e)
+		{
+			e.printStackTrace();
+		}
+	}
+}
